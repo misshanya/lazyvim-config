@@ -4,11 +4,11 @@ return {
     config = true,
     cmd = "ToggleTerm",
     keys = {
-      { '<C-t>', '<cmd>ToggleTerm<cr>', desc = 'Toggle floating terminal' },
+      { "<C-t>", "<cmd>ToggleTerm<cr>", desc = "Toggle bottom terminal" },
     },
     opts = {
       open_mapping = [[<C-t>]],
-      direction = 'float',
+      direction = "horizontal",
       shade_filetypes = {},
       hide_numbers = true,
       insert_mappings = true,
@@ -16,5 +16,5 @@ return {
       start_in_insert = true,
       close_on_exit = true,
     },
-  }
+  },
 }
